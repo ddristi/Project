@@ -15,23 +15,7 @@
 <nav class="container">
   <div class="header">
     <div class="logo">
-      <div
-        code='<svg class="graduation-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>'
-      >
-        <div>
-          <svg
-            class="graduation-cap"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
-            <path
-              d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-            ></path>
-          </svg>
-        </div>
-      </div>
+     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvf8nTOb20_oG7vPZYKp1FL6YEfOXt_qxh3VUteWwkhrQT4cn3bJEKaVGf2-d3AeQE1FI&usqp=CAU" alt="">
     </div>
     <div class="nav-links">
       <a href="homepage.html" class="nav-link">Home</a>
@@ -39,7 +23,13 @@
       <a href="menu.html" class="nav-link">Menu</a>
     </div> 
     <!--<a href="#" class="login-btn">Login</a>-->
-    <button class="login-btn">Login</button>
+    <button class="login-btn" onclick="window.location.href='Login.html';">Login</button>
+   <!-- <script>
+      document.getElementById("login-btn").onclick = function () {
+          window.location.href = "http://127.0.0.1:5500/testProject/login.html";
+      };
+  </script>
+-->
   <!--</div>-->
 </nav>
   <div class="hero">
@@ -60,7 +50,7 @@
         <p class="main-heading">Experience Tailored Learning with Our Personalized Tutoring Approach</p>
         <p class="main-description">
             Our personalized tutoring approach adapts to each student's unique learning style.
-            <br />
+            <!--<br />-->
             We focus on building confidence and mastery in subjects and skills that matter most.
           </p>
           <!--
@@ -128,5 +118,69 @@
         <p class="feature-text-creative">Unleash creativity with music, dance.</p>
     </div>
 </div>
+<!--second part-->
+<section class="learning-section">
+  <h1 class="hero-title2">
+    Transform your learning with our expert online<br>
+    tutoring-discover today:
+  </h1>
+  
+  <div class="steps-container">
+    <div class="steps-grid">
+      <div class="step-card">
+        <div class="step-header">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/b9adaade4bcb90d4931f833f0c6d52561dd15d93d1601a0b90e7ca7874832599?placeholderIfAbsent=true&apiKey=4807caf9d9db4321a3ce4890fab57d24" alt="Step 1 icon" class="step-icon">
+          <h2 class="step-title">
+            Step 1: Create Your Account And<br>
+            Set Your Learning Goals
+          </h2>
+        </div>
+        <p class="step-description">
+          our platform guides you through the setup process<br>
+          seamlessly
+        </p>
+        <button class="action-button" tabindex="0">Sign up</button>
+        <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/48e7238ff7a79872abf7b6c65125d2fb173bb852f927d836a1c6516c5f6b7a1a?placeholderIfAbsent=true&apiKey=4807caf9d9db4321a3ce4890fab57d24" alt="Account creation illustration" class="step-image">
+      </div>
+
+      <div class="step-card">
+        <div class="step-header">
+          <img src="https://cdn.builder.io/api/v1/image/assets/TEMP/6b210a00e9841f4898f26c77d792e47dd4565817d6bd51991a16e4e03ebdad67?placeholderIfAbsent=true&apiKey=4807caf9d9db4321a3ce4890fab57d24" alt="Step 2 icon" class="step-icon">
+          <h2 class="step-title">
+            Step 2: Select Your interested Area<br>
+            And Find Tutor
+          </h2>
+        </div>
+        <p class="step-description">
+          select the subject you need help with and find a tutor<br>
+          that inspires you
+        </p>
+        <button class="action-button" tabindex="0">Select -></button>
+      </div>
+    </div>
+  </div>
+
+  <section class="tutor-section">
+    <h2 class="tutor-title">Become a Tutor and Guide Learners to Success!</h2>
+    
+    <div class="tutor-content">
+      <div class="tutor-grid">
+        <img src="https://thumbs.dreamstime.com/b/online-school-teacher-quarantine-serious-man-glasses-writes-rules-english-white-board-living-room-interior-195089151.jpg" class="tutor-image">
+        
+        <div class="tutor-info">
+          <p class="tutor-description">
+            Earn money sharing your expert knowledge with students. Sign up to start tutoring online
+          </p>
+          <ul class="tutor-benefits">
+            <li>Share your domain</li>
+            <li>Find new students</li>
+            <li>Get paid securely</li>
+          </ul>
+          <button class="tutor-cta" tabindex="0">Become a Tutor</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
 </body>
   </html>
